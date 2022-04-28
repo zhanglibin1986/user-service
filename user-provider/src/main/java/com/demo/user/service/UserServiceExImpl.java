@@ -18,7 +18,7 @@ public class UserServiceExImpl implements UserServiceEx {
     }
     
     @Override
-    public User getUser(String id) {
+    public User getUser(Long id) {
         User u = new User();
         u.setAge(1);
         u.setName("abc");
